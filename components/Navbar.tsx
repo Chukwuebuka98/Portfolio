@@ -60,7 +60,7 @@ export default function Navbar() {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-        className="fixed top-8 md:top-12 left-1/2 -translate-x-1/2 z-50 w-full max-w-[350px] md:max-w-[400px] bg-white/2 border border-white/10 rounded-2xl px-3 py-2.5 md:px-4 md:py-3 shadow-lg flex justify-between items-center backdrop-blur hover:duration-300 "
+        className="fixed top-8 md:top-12 left-1/2 -translate-x-1/2 z-50 w-full max-w-[350px] md:max-w-[400px] bg-white/2 border border-white/10 hover:bg-black/50 rounded-2xl px-3 py-2.5 md:px-4 md:py-3 shadow-lg flex justify-between items-center backdrop-blur hover:duration-400 "
       >
         {icons.map(({ href, icon: Icon, label, hoverColor, target }) => (
           <Tooltip key={href}>

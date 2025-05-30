@@ -1,5 +1,5 @@
 'use client';
-import { BorderTrail } from '@/components/motion-primitives/border-trail';
+// import { BorderTrail } from '@/components/motion-primitives/border-trail';
 import Image from 'next/image';
 import { ReactNode } from 'react';
 import { motion } from 'framer-motion';
@@ -28,7 +28,7 @@ export default function ExperienceCard({
       className="relative flex flex-col rounded-md p-5 border w-full md:w-[calc(50%-0.5rem)]"
       style={{ borderRadius: '12px' }}
     >
-      <BorderTrail
+      {/* <BorderTrail
         style={{
           boxShadow:
             '0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)',
@@ -41,7 +41,7 @@ export default function ExperienceCard({
           repeatType: 'reverse',
           ease: 'easeInOut',
         }}
-      />
+      /> */}
       <div className="flex gap-6">
         <Image height={100} width={100} src={`/images/${icon}`} alt={title} />
         <div className="space-y-1.5">

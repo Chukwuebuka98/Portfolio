@@ -13,6 +13,7 @@ import ZodIcon from '@/icons/ZodIcon';
 import HTMLIcon from '@/icons/HTMLIcon';
 import GitIcon from '@/icons/GitIcon';
 import JavaScriptIcon from '@/icons/JavaScriptIcon';
+import FramerMotionIcon from '@/icons/FramerMotionIcon';
 
 export default function MyTechStack() {
   const logos = [
@@ -23,6 +24,7 @@ export default function MyTechStack() {
     TypescriptIcon,
     ReactIcon,
     NextjsIcon,
+    FramerMotionIcon,
     GitIcon,
     GithubIcon,
     ReactRouterIcon,

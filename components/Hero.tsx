@@ -91,9 +91,11 @@ const Hero = () => {
 
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-5 lg:mb-0">
           <div className="flex gap-4 items-center mb-0 md:mb-5 lg:mb-0">
-            <Button asChild>
-              <Link href="#">Hire me</Link>
-            </Button>
+            <a href="mailto:chukwuebukaemmanuel242@gmail.com">
+              <Button className="cursor-pointer hover:scale-102 hover:bg-[var(--brown-color-2)] duration-300 border border-[var(--brown-color-2)] hover:border-[var(--brown-color-1)] transition-transform hover:duration-300 text-sm md:text-base lg:text-lg font-bold text-white bg-[var(--brown-color-1)]">
+                Hire Me
+              </Button>
+            </a>
 
             <div className="h-9 bg-[#e1f9dc] text-[#178d00] rounded-full text-sm px-4 py-2 inline-flex items-center gap-4">
               <div className="relative">
@@ -106,8 +108,8 @@ const Hero = () => {
               Available for work
             </div>
           </div>
-          <p className="font-mono text-xs text-[var(--brown-color-2)] px-1 max-w-[400px] md:max-w-[600px] md:leading-5 hidden md:block">
-            <TextEffect as="span" per="char" preset="fade">
+          <p className="font-mono text-xs md:text-sm lg:text-base text-[var(--brown-color-2)] px-1 max-w-[400px] md:max-w-[600px] md:leading-6 hidden md:block">
+            <TextEffect as="span" per="line" preset="fade-in-blur">
               Frontend Developer & Creative Technologist focused on crafting
               fast, accessible, and visually engaging web experiences.
               Passionate about performance, security, and pushing the limits of
@@ -123,7 +125,7 @@ const Hero = () => {
           experiences with a focus on performance and clean design.
         </TextEffect> */}
 
-          <TextEffect as="span" per="char" preset="fade">
+          <TextEffect as="span" per="line" preset="fade-in-blur">
             Frontend Developer & Creative Technologist focused on crafting fast,
             accessible, and visually engaging web experiences. Passionate about
             performance, security, and pushing the limits of modern frontend
