@@ -50,7 +50,7 @@ export default function MyTechStack() {
   ];
 
   return (
-    <InfiniteSlider speed={30} gap="gap-6" className="py-4 my-10">
+    <InfiniteSlider speed={50} gap="gap-6" className="py-4 my-10">
       {logos.map((LogoIcon, idx) => (
         <LogoIcon
           key={idx}

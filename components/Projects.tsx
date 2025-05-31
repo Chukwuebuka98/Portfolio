@@ -1,7 +1,8 @@
+'use client';
 import Image from 'next/image';
 import ProjectCard from './ProjectCard';
 import HeaderTitle from './HeaderTitle';
-import { InView } from './ui/in-view';
+import { motion } from 'framer-motion';
 import { projects } from '@/data';
 import { AnimatedGroup } from './motion-primitives/animated-group';
 import React from 'react';
@@ -18,16 +19,13 @@ import { ChevronRight } from 'lucide-react';
 export default function Projects() {
   return (
     <section id="projects" className="mt-20 scroll-mt-30 md:scroll-mt-40 ">
-      <InView
-        variants={{
-          hidden: { opacity: 0, y: 100, filter: 'blur(4px)' },
-          visible: { opacity: 1, y: 0, filter: 'blur(0px)' },
-        }}
-        viewOptions={{ margin: '0px 0px -200px 0px' }}
-        transition={{ duration: 0.3, ease: 'easeInOut' }}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ delay: 0.4, duration: 0.5, ease: 'easeOut' }}
       >
         <HeaderTitle>Here Are Some of My Recent Projects</HeaderTitle>
-
         <div className="w-full">
           <AnimatedGroup
             preset="scale"
@@ -105,7 +103,7 @@ export default function Projects() {
             ))}
           </AnimatedGroup>
         </div>
-      </InView>
+      </motion.div>
 
       <hr className="my-20 border-t border-white/10" />
     </section>

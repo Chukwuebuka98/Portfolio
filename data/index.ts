@@ -163,92 +163,37 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: 'cloudinary',
-    img: '/cloud.svg',
-    nameImg: '/cloudName.svg',
-  },
-  {
-    id: 2,
-    name: 'appwrite',
-    img: '/app.svg',
-    nameImg: '/appName.svg',
-  },
-  {
-    id: 3,
-    name: 'HOSTINGER',
-    img: '/host.svg',
-    nameImg: '/hostName.svg',
-  },
-  {
-    id: 4,
-    name: 'stream',
-    img: '/s.svg',
-    nameImg: '/streamName.svg',
-  },
-  {
-    id: 5,
-    name: 'docker.',
-    img: '/dock.svg',
-    nameImg: '/dockerName.svg',
-  },
-];
-
 export const experience = [
   {
     id: 1,
     title: 'Frontend Engineer Intern',
-    desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
-    className: 'md:col-span-2',
+    desc: 'Refactored a static website into reusable PHP components and improved layout with HTML, CSS, and JavaScript.',
     thumbnail: '/exp1.svg',
-    delay: 0.7, // Optional delay for animation
-    duration: 2, // Optional duration for animation
+    delay: 0.5,
+    duration: 1,
   },
   {
     id: 2,
     title: 'Frontend developer at Arya-vs',
     desc: "Built and maintained a payroll calculator for the company's internal use, improving efficiency and accuracy.",
-    className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
-    delay: 0.8, // Optional delay for animation
-    duration: 3, // Optional duration for animation
+    delay: 0.5,
+    duration: 1,
   },
   {
     id: 3,
     title: 'Freelance Web Dev Project',
     desc: 'Developed a responsive website for a local business, enhancing their online presence and customer engagement.',
-    className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp3.svg',
-    delay: 1, // Optional delay for animation
-    duration: 4, // Optional duration for animation
+    delay: 0.5,
+    duration: 1,
   },
   {
     id: 4,
     title: 'Frontend Developer',
     desc: 'Developed and maintained user-facing features using modern frontend technologies.',
-    className: 'md:col-span-2',
     thumbnail: '/exp4.svg',
-    delay: 0.5, // Optional delay for animation
-    duration: 3, // Optional duration for animation
-  },
-];
-
-export const socialMedia = [
-  {
-    id: 1,
-    img: '/git.svg',
-    link: 'https://github.com/Chukwuebuka98',
-  },
-  {
-    id: 2,
-    img: '/twit.svg',
-    link: 'https://x.com/TrigahN',
-  },
-  {
-    id: 3,
-    img: '/link.svg',
-    link: 'https://www.linkedin.com/in/chukwuebuka-igwe-6b8a76117/',
+    delay: 0.5,
+    duration: 1,
   },
 ];
