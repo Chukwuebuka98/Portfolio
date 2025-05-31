@@ -1,5 +1,4 @@
 import Experiences from '@/components/Experiences';
-import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 
@@ -9,7 +8,6 @@ export default function Page() {
       <Hero />
       <Projects />
       <Experiences />
-      <Footer />
     </div>
   );
 }

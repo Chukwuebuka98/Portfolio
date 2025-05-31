@@ -52,13 +52,6 @@
     background-position: top;
     background-repeat: no-repeat;
   }
-
-  .footer-bg {
-    background-image: var(--footer-bg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: bottom;
-  }
 }
 
 @theme inline {
