@@ -108,7 +108,7 @@ const Hero = () => {
               Available for work
             </div>
           </div>
-          <p className="font-mono text-xs md:text-sm lg:text-base text-[var(--brown-color-2)] px-1 max-w-[400px] md:max-w-[600px] md:leading-6 hidden md:block">
+          <p className="font-mono text-xs md:text-sm lg:text-base text-[var(--brown-color-2)] px-1 max-w-[400px] md:max-w-[600px] text-justify md:leading-6 hidden md:block">
             <TextEffect as="span" per="line" preset="fade-in-blur">
               Frontend Developer & Creative Technologist focused on crafting
               fast, accessible, and visually engaging web experiences.
