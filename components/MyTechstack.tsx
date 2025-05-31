@@ -32,6 +32,21 @@ export default function MyTechStack() {
     ViteIcon,
     ShadcnIcon,
     ZodIcon,
+    HTMLIcon,
+    CSSIcon,
+    TailwindIcon,
+    JavaScriptIcon,
+    TypescriptIcon,
+    ReactIcon,
+    NextjsIcon,
+    FramerMotionIcon,
+    GitIcon,
+    GithubIcon,
+    ReactRouterIcon,
+    FirebaseIcon,
+    ViteIcon,
+    ShadcnIcon,
+    ZodIcon,
   ];
 
   return (
