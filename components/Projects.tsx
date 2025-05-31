@@ -18,7 +18,10 @@ import { ChevronRight } from 'lucide-react';
 
 export default function Projects() {
   return (
-    <section id="projects" className="mt-20 scroll-mt-30 md:scroll-mt-40 ">
+    <section
+      id="projects"
+      className="mt-10 md:mt-20 scroll-mt-30 md:scroll-mt-40 "
+    >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -105,7 +108,7 @@ export default function Projects() {
         </div>
       </motion.div>
 
-      <hr className="my-20 border-t border-white/10" />
+      <hr className="my-10 md:my-20 border-t border-white/10 hidden md:block" />
     </section>
   );
 }

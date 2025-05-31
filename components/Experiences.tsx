@@ -20,7 +20,9 @@ export default function Experiences() {
           />
         ))}
       </div>
-      <MyTechStack />
+      <div className="mt-20">
+        <MyTechStack />
+      </div>
     </section>
   );
 }

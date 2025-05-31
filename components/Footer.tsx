@@ -29,7 +29,7 @@ export default function Footer() {
     },
   ];
   return (
-    <footer className="py-12 mt-20  w-full">
+    <footer className="py-12 mt-10 md:mt-20 w-full">
       <div className="max-w-[1240px] w-full mx-auto px-4 md:px-12">
         <h3 className="text-center text-lg md:text-2xl lg:text-4xl font-bold mb-4 text-gray-300">
           Looking to bring your ideas to life on the web{' '}

@@ -34,7 +34,7 @@ const Hero = () => {
           },
         }}
       >
-        <h1 className="text-[clamp(2rem,12vw,8rem)] font-bold leading-none tracking-tight uppercase max-w-[1240px] mx-auto">
+        <h1 className="text-[clamp(2rem,10vw,8rem)] font-bold leading-none tracking-tight uppercase max-w-[1240px] mx-auto">
           <TextEffect
             per="char"
             delay={0.5}
