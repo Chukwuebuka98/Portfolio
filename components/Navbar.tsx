@@ -45,7 +45,7 @@ const icons = [
     target: '_blank',
   },
   {
-    href: '/resume.pdf',
+    href: '/Resume.pdf',
     icon: DocsIcon,
     label: 'Resume',
     hoverColor: 'hover:text-[#2b2b2b] duration-300',
