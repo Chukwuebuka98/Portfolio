@@ -84,7 +84,7 @@ const Hero = () => {
           preset="blur"
           className="font-mono text-xs md:text-sm lg:text-base text-white/80 px-1"
         >
-          Chukwuebuka Emmanuel / Software Developer
+          Chukwuebuka Emmanuel / Frontend Engineer
         </TextEffect>
 
         <hr className="border border-white/10 my-5 md:my-10 lg:mt-15" />
