@@ -174,7 +174,7 @@ export const experience = [
   },
   {
     id: 2,
-    title: 'Frontend developer at Arya-vs',
+    title: 'Fullstack Developer at Arya-vs',
     desc: "Built and maintained a payroll calculator for the company's internal use, improving efficiency and accuracy.",
     thumbnail: '/exp2.svg',
     delay: 0.5,
